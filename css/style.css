@@ -142,15 +142,42 @@ h1 {
   height: 90px;
   text-align: center;
 }
-
-
 .float-tre-colo hr {
   padding:40%;
 }
-
- h3 {
+h3 {
   color: lightgreen;
   padding: 5px 0;
   text-align: center;
   width: 90%;
+}
+.float-colon {
+  padding: 5px;
+  text line-height: 25px;
+  color: lightgrey;
+
+}
+/* /chiusura float  */
+.float-bottom {
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+}
+.float-under img {
+  height: 400px;
+}
+.float-under {
+  float: left;
+  width: 50%;
+
+}
+.float-under h2 {
+  width: 60%;
+  margin:10px 0px;
+}
+.float-under p{
+  color: lightgrey;
+  line-height: 25px;
+  margin-bottom: 10px;
 }
