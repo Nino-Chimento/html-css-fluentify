@@ -103,3 +103,45 @@ h1 {
   border-radius: 4px;
   background-color: lightgreen;
 }
+/* title h1 */
+/* main */
+.top-main {
+  position: relative;
+  background-color: lightgrey;
+  width: 100%;
+  height: 100px;
+}
+.title-top-main {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  width: 100%;
+}
+.title-top-main h2 {
+  padding-bottom: 5px;
+}
+/* colonne fluttuanti */
+.float-tre-colon {
+  content: "";
+  display: table;
+  clear: both;
+  width: 85%;
+  margin:auto;
+}
+.float-colon {
+  float: left;
+  width: calc(100%/3);
+ }
+.float-colon img {
+  height: 90px;
+  position: absolute;
+  left: 40%;
+}
+
+ h3 {
+  color: lightgreen;
+  padding: 5px 0;
+  text-align: center;
+}
