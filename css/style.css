@@ -124,6 +124,7 @@ h1 {
 }
 /* colonne fluttuanti */
 .float-tre-colon {
+  position: relative;
   content: "";
   display: table;
   clear: both;
@@ -133,15 +134,23 @@ h1 {
 .float-colon {
   float: left;
   width: calc(100%/3);
- }
+  position: relative;
+  text-align: center;
+}
+
 .float-colon img {
   height: 90px;
-  position: absolute;
-  left: 40%;
+  text-align: center;
+}
+
+
+.float-tre-colo hr {
+  padding:40%;
 }
 
  h3 {
   color: lightgreen;
   padding: 5px 0;
   text-align: center;
+  width: 90%;
 }
